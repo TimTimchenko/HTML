@@ -1,0 +1,22 @@
+body {
+    background: #FFFFE0;
+    font-family: arial sans-serif;
+}
+
+.leftimg {
+    float: left; 
+    margin: 0px 10px 7px 7px;
+   }
+hr {
+	border: none; 
+    background-color: #DEB887; 
+    height: 8px; 
+}
+h1 {
+    line-height: 40%;
+   } 
+p b {
+    background: #FFDEAD; 
+    padding: 2px; 
+   } 
+
