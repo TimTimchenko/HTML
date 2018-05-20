@@ -1,0 +1,124 @@
+*{transition: all .1s ease-in;}
+body {
+    background-color: #3399CC;
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    color: #FFFFFF;
+    border: 15px solid #2B81AC;
+    margin: 0px;
+    padding: 0px;
+    height: 100%
+}
+header {
+    background-color: #3399CC;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+footer {
+    background-color: #3399CC;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+ul:hover li {
+    opacity: .5;
+}
+ul li:hover {
+    opacity: 1;
+}
+span{
+    opacity: 0.5;
+}
+ul {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    font-size: 0;
+    box-sizing: border-box;
+   }
+
+.big  {
+   display: inline-block;
+    margin 5px 0;
+    background: orange;
+    border: 2px solid white;
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px;
+    
+   
+} 
+.midle {
+    display: inline-block;
+    margin 5px 0;
+    background: orange;
+    border: 2px solid white;
+    width: 50%;  
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px;
+ 
+}
+.small {
+    display: inline-block;
+    margin 5px 0;
+    background: orange;
+    border: 2px solid white;
+    width: 25%;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25px;
+    padding: 20px;
+}
+li:first-child{
+    background-color: #3399CC;
+}
+li:first-child{
+    background-color: #3399CC;
+}
+li:nth-child(2){
+    background-color: #33CCCC;
+}
+li:nth-child(3){
+    background-color: #996699;
+}
+li:nth-child(4){
+    background-color: #C24747;
+}
+li:nth-child(5){
+    background-color: #E2674A;
+}
+li:nth-child(6){
+    background-color: #FFCC66;
+}
+li:nth-child(7){
+    background-color: #99CC99;
+}
+li:nth-child(8){
+    background-color: #669999;
+}
+li:nth-child(9){
+    background-color: #CC6699;
+}
+li:nth-child(10){
+    background-color: #339966;
+}
+li:last-child {
+    background-color: #666699;
+}
+
+
+
+
