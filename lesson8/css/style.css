@@ -1,0 +1,69 @@
+body{
+   background: url("../img/bg3.png");
+   background-position: bottom;
+   width: 100%;
+   height: 1892px;
+   font-family: Segoe UI, Arial, sans-serif;
+   
+}
+header {
+    background-color: #464b4f;
+    height: 850px;
+    
+}
+.logo {
+    padding-top: 80px;
+    text-align: center;
+}
+h1 {
+    padding-top: 130px;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+header p {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    
+}
+.icon {
+    padding-top: 130px;
+    text-align: center;  
+}
+article {
+    margin: 120px 490px;
+}
+article p {
+    padding: 0 10px;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+}
+article h3 {
+    margin: 130px 0;
+    padding: 0 10px;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 36px;
+    text-align: center;
+}
+
+td h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 42px;
+    color: #464b4f;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #888a8b;
+}
