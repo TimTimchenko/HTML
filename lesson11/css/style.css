@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-size: 0px;
+    display: table;
+    margin: 0 auto;
+}
+ ul {
+   float: left;
+    color: white;
+ }
+ li {
+    display: inline-block;
+    font-size: 64px;
+    padding: 9px;
+    border: 1px solid black;
+}
+
+ .line1 ul :nth-child(2n) {
+    background-color: gray;
+    color: black;
+}
+ .line2 ul li:nth-child(2n+1) {
+    background-color: gray;
+    color: black;
+}
+ .line3 ul :nth-child(2n) {
+    background-color: gray;
+    color: black;
+}
+.line4 ul li:nth-child(2n+1) {
+    background-color: gray;
+    color: gray;
+}
+ .line5 ul :nth-child(2n) {
+   background-color: gray;
+    color: gray;
+}
+.line6 ul li:nth-child(2n+1) {
+    background-color: gray;
+    color: white;
+}
+.line7 ul :nth-child(2n) {
+   background-color: gray;
+    color: white;
+}
+.line8 ul li:nth-child(2n+1) {
+    background-color: gray;
+    color: white;
+}
