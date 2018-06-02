@@ -7,8 +7,8 @@ body {
 
 header {
     background-color: #464b4f;
-    height: 850px;
-}
+    height: 100%;
+ }
 
 .logo {
     padding-top: 80px;
@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-    padding-top: 130px;
+    padding-top: 100px;
     text-align: center;
     font-size: 80px;
     color: white;
@@ -29,12 +29,13 @@ header p {
     text-align: center;
     font-size: 18px;
     color: white;
-    padding-bottom: 130px;
+    padding-bottom: 170px;
  }
 
 .icon {
     position: absolute;
-    left: 50%;
+    left: 48.5%;
+    top: 65%;
 }
 
 article p {
