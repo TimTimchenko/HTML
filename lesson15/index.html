@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>paymentform</title>
+    <link rel="icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+<div class="info">
+    <div class="logo">
+        <h1>Harold Finch</h1>
+        <p>Your Total</p>
+    </div>
+    <div class="sum">    
+        <p>$88</p>
+    </div>
+</div>
+  
+    <content>
+    <div class="pay">
+                    <form>
+                      <fieldset>
+                             <label>
+                                 <p>Credit card number</p>
+                                 <input class="text" type='text' name='sum' value='4321' onfocus="this.value=' '"\/>
+                                 <p>Expiration date</p>
+                                 <select class="month" type='month' name='month' value='Month'>
+                            <option>Month</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+                                 <select class="year" type='year' name='year' value='Year'>
+                            <option>Year</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            </select>
+                             </label>
+                            <p>CVV</p>
+                                <input class="cvv" type="password" maxlength="4" size="4" name="password"  max="4"><span>3 or 4 digits - <a href="#">view example</a></span>
+                            <hr>
+                                <button class="button">Pay</button>
+                               <h4><a href="#">Cancel order</a></h4>
+                       </fieldset>
+                    </form>
+                </div>
+</content>  
+</body>
+</html>
