@@ -1,0 +1,84 @@
+* {
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    height: 100%;
+}
+body{
+    background: linear-gradient(to bottom left,#dd2476,#ff512f);
+    background-size: cover;
+}
+
+.form {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 60px auto 70px;
+    max-width: 460px;
+    padding: 30px;
+
+}
+i {
+    font-size: 24px;
+    color: #df2671;
+    padding: 0 7px 0 0;
+}
+h1 {
+    font-size: 24px;
+
+    color: #000000;
+}
+p {
+    font-size: 13px;
+    color: #7a7b7f;
+}
+a {
+    text-decoration: none;
+    color: #ea355a;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.fname {
+    background-color: #f0f0f0;
+    margin: 40px 15px 10px 0;
+    padding: 10px;
+    border: 0px;
+    border-radius: 3px;
+    width: 48%;
+}
+.lname {
+    background-color: #f0f0f0;
+    margin: 40px 0 10px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 3px;
+    width: 48%;
+}
+.mail {
+    display: flex;
+    flex-direction: column;
+    }
+.mail input:nth-child(-n+2) {
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border: 0px;
+    border-radius: 3px;
+}
+.mail input:nth-child(3) {
+    background-color: #ea355a;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0 120px;
+    padding: 15px;
+    border: 0px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
