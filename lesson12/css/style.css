@@ -1,0 +1,134 @@
+* {
+    font-family: MuseoSans;;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: MuseoSans;
+    src: url(../fonts/MuseoSansRounded-100.otf);
+}
+body, html {
+    height: 100%;
+}
+body{
+    background: url("../img/bg.png");
+    background-size: cover;
+}
+.card {
+    border-radius: 10px;
+    background-color: rgb(17, 26, 40);
+    box-shadow: 0 0 65px 0 rgba(0, 0, 0, 0.82);
+    width: 80%;
+    max-width: 686px;
+    margin: 10% auto;
+    padding: 20px;
+    overflow: auto;
+
+}
+.img {
+    float: left;
+    margin: 50px 0 0 20px;
+}
+.img__color {
+    text-align: center;
+    margin: 100px 0 0;
+}
+.img__color span{
+    width: 16px;
+    height: 16px;
+    background: #1f273f;
+    border-radius: 50%;
+    display:inline-block;
+    margin: auto 4px;
+    border: 1px solid white;
+}
+.img__color span:nth-child(2){
+    background-color: #ffffff;
+    border: none;
+    width: 10px;
+    height: 10px;
+}
+.img__color span:nth-child(3){
+    background-color: #ed3333;
+    border: none;
+    width: 10px;
+    height: 10px;
+}
+.img__color span:nth-child(4){
+    background-color: #29e3ea;
+    border:none;
+    width: 10px;
+    height: 10px;
+}
+.form {
+    float: right;
+    padding-top: 0;
+    color: #e1e1e1;
+}
+.form__model {
+    margin-top: 0;
+    max-width: 200px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+.form__appointment {
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+    font-size: 24px;
+    margin: 12px 0;
+}
+.rating__star {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+}
+.rating__star:hover:before,
+.rating__star:hover ~ .rating__star:before {
+    content: "\2605";
+    position: absolute;
+    color: gold;
+}
+.form__scale {
+    margin: 20px 0;
+}
+.scale__size {
+    padding: 12px 14px;
+    background-color: rgb(17, 26, 40);
+    font-size: 14px;
+}
+.scale__qty {
+    padding: 12px 14px;
+    background-color: rgb(17, 26, 40);
+    font-size: 14px;
+}
+.button__one {
+    margin: 15px 0;
+    padding: 15px 70px;
+    background-color: #2A3545;
+    border: 1px solid gray;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
