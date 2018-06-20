@@ -23,37 +23,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.1364366" vertical-offset="0" max-vertical-offset="623">
+            <state line="76" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
               <folding>
                 <element signature="tag#head#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#form#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="0" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+            <state line="15" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.13621795" vertical-offset="0" max-vertical-offset="624">
               <folding>
-                <element signature="e#2#99#0" expanded="false" />
-                <element signature="e#111#132#0" expanded="false" />
-                <element signature="e#137#233#0" expanded="false" />
-                <element signature="e#241#369#0" expanded="false" />
-                <element signature="e#372#440#0" expanded="false" />
-                <element signature="e#444#489#0" expanded="false" />
-                <element signature="e#492#536#0" expanded="false" />
-                <element signature="e#539#589#0" expanded="false" />
-                <element signature="e#596#693#0" expanded="false" />
-                <element signature="e#701#841#0" expanded="false" />
-                <element signature="e#991#1045#0" expanded="false" />
-                <element signature="e#1074#1188#0" expanded="false" />
-                <element signature="e#1214#1398#0" expanded="false" />
+                <element signature="e#2#64#0" expanded="false" />
+                <element signature="e#76#97#0" expanded="false" />
+                <element signature="e#113#182#0" expanded="false" />
+                <element signature="e#187#210#0" expanded="false" />
+                <element signature="e#222#279#0" expanded="false" />
+                <element signature="e#362#406#0" expanded="false" />
+                <element signature="e#416#443#0" expanded="false" />
+                <element signature="e#463#488#0" expanded="false" />
+                <element signature="e#510#530#0" expanded="false" />
+                <element signature="e#546#565#0" expanded="false" />
+                <element signature="e#581#605#0" expanded="false" />
+                <element signature="e#620#644#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -69,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -107,17 +109,18 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson15" />
+              <option name="myItemId" value="lesson16" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson15" />
+              <option name="myItemId" value="lesson16" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -127,7 +130,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lesson15" />
+              <option name="myItemId" value="lesson16" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -141,11 +144,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesson14a" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
@@ -191,7 +193,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1312" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -199,7 +201,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14506173" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -233,48 +235,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1190">
+        <state line="76" column="0" selection-start="2837" selection-end="2837" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="391">
           <folding>
             <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#form#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#3;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="15" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.13621795" vertical-offset="0" max-vertical-offset="624">
           <folding>
-            <element signature="e#2#99#0" expanded="false" />
-            <element signature="e#111#132#0" expanded="false" />
-            <element signature="e#137#233#0" expanded="false" />
-            <element signature="e#241#369#0" expanded="false" />
-            <element signature="e#372#440#0" expanded="false" />
-            <element signature="e#444#489#0" expanded="false" />
-            <element signature="e#492#536#0" expanded="false" />
-            <element signature="e#539#589#0" expanded="false" />
-            <element signature="e#596#693#0" expanded="false" />
-            <element signature="e#701#841#0" expanded="false" />
-            <element signature="e#991#1045#0" expanded="false" />
-            <element signature="e#1074#1188#0" expanded="false" />
-            <element signature="e#1214#1398#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.1364366" vertical-offset="0" max-vertical-offset="623">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#form#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="e#2#64#0" expanded="false" />
+            <element signature="e#76#97#0" expanded="false" />
+            <element signature="e#113#182#0" expanded="false" />
+            <element signature="e#187#210#0" expanded="false" />
+            <element signature="e#222#279#0" expanded="false" />
+            <element signature="e#362#406#0" expanded="false" />
+            <element signature="e#416#443#0" expanded="false" />
+            <element signature="e#463#488#0" expanded="false" />
+            <element signature="e#510#530#0" expanded="false" />
+            <element signature="e#546#565#0" expanded="false" />
+            <element signature="e#581#605#0" expanded="false" />
+            <element signature="e#620#644#0" expanded="false" />
           </folding>
         </state>
       </provider>
