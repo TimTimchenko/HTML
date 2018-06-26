@@ -2,6 +2,16 @@
     box-sizing: border-box;
     font-family: Raleway, Arial, sans-serif;
 }
+@font-face {
+    font-family: 'Aleo Regular';
+    src: url('../fonts/Aleo-Regular.eot');
+    src: url('../fonts/Aleo-Regular.otf') format('otf'),
+    url("../fonts/Aleo-Regular.svg") format("svg"),
+    url("../fonts/Aleo-Regular.ttf") format("truetype"),
+    url("../fonts/Aleo-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
 a {
     text-decoration: none;
@@ -16,6 +26,13 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 0;
 }
 
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
 img {
     display: block;
     margin: 0 auto;
@@ -28,92 +45,286 @@ img {
     clear: both;
 }
 
-.container {
-    width: 1100px;
-    margin: 0 auto;
-    text-align: center;
+body {
+    border-width: 0 10px;
+    border-color: white;
+    border-style: solid;
 }
 
+.container {
+    max-width: 1150px;
+    padding: 0 20px 0;
+    margin: 0 auto;
+}
 section.one {
     position: relative;
-    min-height: 100vh;
-    padding-top: 50px;
-    padding-bottom: 110px;
-    background: #f9f8fb url("../img/bg_one.png") no-repeat center;
+    height: 100vh;
+    border-top: 15px solid white;
+    background: #04102a url("../img/bg_one.png") no-repeat center;
     background-size: cover;
+    padding-bottom: 80px;
 }
 
 .content {
-    max-width: 1100px;
-    margin: 0 auto;
+    padding-top: 20%;
+    text-align: center;
+}
+.content h2 {
+    font-size: 48px;
+    padding-bottom: 6px;
+}
+.content p {
+    letter-spacing: 4px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+
+}
+
+.search {
+    margin-top: 30px;
+}
+.search input {
+    display: inline-block;
+    width: 35%;
+    line-height: 46px;
+    margin-right: -5px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-top: 4px solid white;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    color: #999999;
+}
+.search button {
+    display: inline-block;
+    background-color: #5474FD;
+    text-transform: uppercase;
+    line-height: 46px;
+    border: 2px solid white;
+    width: 12%;
+    font-size: 14px;
+    outline: none;
+    margin-top: 2px;
+    font-family: 'Aleo Regular', sans-serif;
     color: white;
 }
-.content h1 {
-    text-transform: uppercase;
-    padding: 8px;
-}
-.text {
-    padding: 8px 70px;
-    margin-top: 30px;
-    margin-right: -5px;
-}
-.button {
-    padding: 9px 10px;
-    margin-top: 30px;
-    background-color: #5474FD;
-    border: 1px solid white;
+.search img {
+    display: inline-block;
+    margin-left: 10px;
+    width: 20px;
+    transform: translate(25%, 25%);
 }
 
 .scroll {
     position: absolute;
-    left: 50%;
+    left: 48%;
+    margin-top: 7%;
+    color: white;
 }
+.scroll p {
+    margin-bottom: 7px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #5474FD;
+    height: 80px;
+}
+.menu a {
+    color: white;
+}
+.menu h2 {
+    float: left;
+    display: inline-block;
+    margin: 10px 0 0;
+    font-size: 24px;
+
+}
+.menu li a {
+    float: right;
+    display: inline-block;
+    padding-left: 15px;
+    margin: 15px 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: Aleo Regular, Arial, sans-serif;
+
+}
+
 section.two {
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 110px;
     background: #f9f8fb url("../img/bg_two.png") no-repeat center;
     background-size: cover;
 }
+.two_text {
+    float: left;
+    max-width: 480px;
+    margin-top: 15%;
+    color: white;
+}
+.two_text h3 {
+    padding-bottom: 25px;
+    font-family: 'Aleo Regular', sans-serif;
+    font-size: 36px;
+}
+.two_text p {
+    padding: 15px 0;
+    margin-bottom: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+.two_text button {
+    display: block;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #5474FD;
+    font-family: 'Aleo Regular', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
-section.three {
-    position: relative;
-    padding-top: 50px;
+.im_one {
+    float: right;
+    margin-top: 8%;
+    margin-right: 100px;
+}
+.im_two {
+    float: right;
+}
+
+.nav_icon ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three .container {
+    padding-top: 250px;
     padding-bottom: 110px;
+}
+
+.list_one {
     background: #f9f8fb url("../img/bg_three.png") no-repeat center;
     background-size: cover;
 }
 
-section.four {
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 110px;
+.list_two {
     background: #f9f8fb url("../img/bg_four.png") no-repeat center;
     background-size: cover;
 }
 
-section.five {
-    position: relative;
-    padding-top: 50px;
-    padding-bottom: 110px;
-    background: #f9f8fb url("../img/bg_five.png") no-repeat center;
-    background-size: cover;
+.hotel {
+    width: 60%;
+    background-color: rgba(56,56,56,0.9);
+    padding: 50px 40px;
+    color: white;
+}
+.hotel h3 {
+    padding-bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.hotel p {
+    padding: 15px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.hotel button {
+    display: block;
+    width: 200px;
+    border: none;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #5474FD;
+    font-family: 'Aleo Regular', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
-.container .five_img {
-    float: left;
+.list_two .hotel {
+    float: right;
+}
+
+section.four {
+    background: #f9f8fb url("../img/bg_five.png") no-repeat center;
+    background-size: cover;
+    height: 735px;
+}
+section.four .container h4 {
+    padding: 115px 0;
+    text-align: center;
+    font-family: 'Aleo Regular', sans-serif;
+    font-size: 36px;
     color: white;
 }
-.container .five_text {
-    float: right;
-    max-width: 400px;
+.four_img {
+    float: left;
+}
+.four_text {
+    display: inline-block;
+    background-color: rgba(56,56,56,0.9);
     color: white;
+    padding: 44px;
+    max-width: 665px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.four_text h3 {
+    padding-bottom: 17px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.four_text p {
+    line-height: 26px;
+    font-size: 16px;
+}
+.four_text i {
+    color: blue;
 }
 
 footer {
-    background-color: #232323;
+  background-color: #232323;
+  padding: 100px 0 30px;
+  text-align: center;
+  color: white;
+}
+footer h3 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+footer p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.sn {
+    margin: 15px 0;
+}
+.sn a {
+    margin-right: 18px;
     color: white;
 }
+.sn a:last-child {
+    margin-right: 0;
+}
+.sn a:nth-child(3) {
+    color: blue;
+}
+
+
+
 
 
 
